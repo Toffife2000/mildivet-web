@@ -29,7 +29,7 @@ document.querySelector("[data-contact-form]")?.addEventListener("submit", (event
   ].join("\n");
 
   window.location.href = `mailto:lyndse@centrum.sk?subject=${encodeURIComponent(
-    "Správa zo stránky MILDIvet",
+    "Správa zo stránky Mildivet",
   )}&body=${encodeURIComponent(body)}`;
 });
 

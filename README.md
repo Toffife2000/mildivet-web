@@ -1,6 +1,6 @@
-# MILDIvet
+# Mildivet
 
-Statická webstránka pre veterinárnu kliniku MILDIvet v Komárne.
+Statická webstránka pre veterinárnu kliniku Mildivet v Komárne.
 
 ## Lokálny náhľad
 
