@@ -16,12 +16,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/LOGO.jpg" />
     <link rel="icon" href="assets/LOGO.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -55,7 +49,7 @@
 
     <main id="domov">
       <section class="hero">
-        <div class="hero-copy">
+        <div class="hero-copy reveal">
           <p class="eyebrow">Interná medicína a chirurgia mäkkých tkanív</p>
           <h1>Veterinárna starostlivosť s pokojom, odbornosťou a ľudským prístupom.</h1>
           <p>
@@ -68,8 +62,10 @@
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Fotografie z kliniky MILDIvet">
+        <div class="hero-visual reveal" aria-label="Fotografie z kliniky MILDIvet">
           <div class="blob blob-one"></div>
+          <div class="wiggle wiggle-one" aria-hidden="true"></div>
+          <div class="wiggle wiggle-two" aria-hidden="true"></div>
           <img
             class="hero-main"
             src="assets/494539369_1247146197419586_5841418140584268291_n.jpg"
@@ -87,7 +83,7 @@
         </div>
       </section>
 
-      <section class="trust-strip" aria-label="Výhody kliniky">
+      <section class="trust-strip reveal" aria-label="Výhody kliniky">
         <article>
           <span>01</span>
           <strong>Individuálny prístup</strong>
@@ -105,7 +101,7 @@
         </article>
       </section>
 
-      <section class="section services" id="sluzby">
+      <section class="section services reveal" id="sluzby">
         <div class="section-heading">
           <p class="eyebrow">Odborná starostlivosť</p>
           <h2>Naše služby</h2>
@@ -144,7 +140,7 @@
         </div>
       </section>
 
-      <section class="feature-band" id="o-nas">
+      <section class="feature-band reveal" id="o-nas">
         <div class="feature-copy">
           <p class="eyebrow">MILDIvet Komárno</p>
           <h2>Starostlivosť pre zvieratá, ktoré sú členmi rodiny.</h2>
@@ -166,7 +162,7 @@
         </div>
       </section>
 
-      <section class="section team" id="tim">
+      <section class="section team reveal" id="tim">
         <div class="section-heading">
           <p class="eyebrow">Vzdelávanie a prax</p>
           <h2>Náš tím rastie s každým pacientom</h2>
@@ -185,7 +181,7 @@
         </div>
       </section>
 
-      <section class="certificates">
+      <section class="certificates reveal">
         <div>
           <p class="eyebrow">Certifikáty</p>
           <h2>Odbornosť podložená vzdelávaním</h2>
@@ -197,7 +193,7 @@
         </div>
       </section>
 
-      <section class="section contact" id="kontakt">
+      <section class="section contact reveal" id="kontakt">
         <div class="contact-card">
           <p class="eyebrow">Kontakt</p>
           <h2>Objednajte sa telefonicky</h2>
@@ -225,6 +221,62 @@
           <small>Odoslanie zatiaľ otvorí e-mail klienta. Neskôr ho môžeme napojiť na Cloudflare Function.</small>
         </form>
       </section>
+
+      <section class="legal-section reveal" id="pravne-informacie">
+        <div class="section-heading">
+          <p class="eyebrow">Transparentne a férovo</p>
+          <h2>Právne informácie</h2>
+        </div>
+
+        <div class="legal-grid">
+          <article id="prevadzkovatel">
+            <h3>Prevádzkovateľ webu</h3>
+            <p><strong>Mildivet s. r. o.</strong></p>
+            <p>Subezna 76, Ďulov Dvor, 945 01 Komárno</p>
+            <p>IČO: 57133034</p>
+            <p>DIČ: 2122578964</p>
+            <p>Zapísaná v Obchodnom registri Okresného súdu Nitra, oddiel: Sro, vložka č. 66792/N.</p>
+            <p>Telefón: <a href="tel:+421911382242">+421 911 382 242</a></p>
+            <p>E-mail: <a href="mailto:lyndse@centrum.sk">lyndse@centrum.sk</a></p>
+          </article>
+
+          <article id="ochrana-osobnych-udajov">
+            <h3>Ochrana osobných údajov</h3>
+            <p>
+              Osobné údaje spracúvame iba v rozsahu potrebnom na vybavenie telefonickej,
+              e-mailovej alebo osobnej komunikácie s klientom a na dohodnutie veterinárnej
+              starostlivosti.
+            </p>
+            <p>
+              Kontaktný formulár na tejto stránke neukladá údaje do databázy webu. Po odoslaní
+              otvorí e-mail klienta a správu odošlete priamo na adresu kliniky.
+            </p>
+            <p>
+              Právnym základom spracúvania je najmä komunikácia pred poskytnutím služby,
+              plnenie dohodnutej služby a oprávnený záujem na odpovedi na vašu požiadavku.
+              Údaje neposkytujeme na marketingové účely tretím stranám.
+            </p>
+            <p>
+              Máte právo požiadať o prístup k údajom, opravu, výmaz, obmedzenie spracúvania
+              alebo namietať spracúvanie. Kontaktovať nás môžete na adrese
+              <a href="mailto:lyndse@centrum.sk">lyndse@centrum.sk</a>.
+            </p>
+          </article>
+
+          <article id="cookies">
+            <h3>Cookies</h3>
+            <p>
+              Táto stránka aktuálne nepoužíva analytické, reklamné ani marketingové cookies.
+              Nepoužívame Google Analytics, Meta Pixel ani podobné sledovacie nástroje.
+            </p>
+            <p>
+              Preto nezobrazujeme súhlasový cookie popup. Ak v budúcnosti pridáme analytiku,
+              rezervačný systém, mapu alebo iný nástroj tretej strany, doplníme aj príslušné
+              nastavenie súhlasu.
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
@@ -234,6 +286,11 @@
       </div>
       <p>Veterinárna klinika Komárno. Interná medicína a chirurgia mäkkých tkanív.</p>
       <a href="mailto:lyndse@centrum.sk">lyndse@centrum.sk</a>
+      <div class="footer-links">
+        <a href="#prevadzkovatel">Prevádzkovateľ</a>
+        <a href="#ochrana-osobnych-udajov">Ochrana údajov</a>
+        <a href="#cookies">Cookies</a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
